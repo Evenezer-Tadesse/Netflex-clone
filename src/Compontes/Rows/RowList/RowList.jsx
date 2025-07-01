@@ -1,6 +1,6 @@
 import React from "react";
 import Row from "../row/Row";
-import "./RowList.css";
+import "./rowlist.css";
 
 const RowList = () => {
   const rowData = [
