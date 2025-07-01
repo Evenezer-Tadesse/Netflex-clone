@@ -1,10 +1,9 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://evenezer-tadesse.github.io/Netflix-clone",
+  base: "/Netflex-clone/", // ✅ this is the correct way
   build: {
     outDir: "dist",
     assetsDir: "assets",
