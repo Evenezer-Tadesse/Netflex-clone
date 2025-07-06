@@ -1,9 +1,6 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-
 export default defineConfig({
   plugins: [react()],
-  base: "/Netflex-clone/", // ✅ this is the correct way
+  base: "./", // ✅ for Netlify
   build: {
     outDir: "dist",
     assetsDir: "assets",
